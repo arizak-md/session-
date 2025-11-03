@@ -97,7 +97,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ARIZAK ͲᎬᏟᎻ",
-thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
+thumbnailUrl: "https://files.catbox.moe/1um7fs.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -107,13 +107,13 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy KANGO-XMD*\n\n ◦ *Github:* https://github.com/OfficialKango/KANGO-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploy ARIZAK-MD*\n\n ◦ *Github:* https://github.com/arizak-md/arizak`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ARIZAK-ᎷᎠ",
-thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
+thumbnailUrl: "https://files.catbox.moe/1um7fs.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 2,
 renderLargerThumbnail: true,
