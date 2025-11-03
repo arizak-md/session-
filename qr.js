@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "HUNTER-XMD~" + string_session;
+                        let md = "ARIZAK-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*ᎻᎬᏞᏞϴ ᎻႮΝͲᎬᎡ-ХᎷᎠ ႮՏᎬᎡՏ! 👋🏻* 
+                        let desc = `*ᎻᎬᏞᏞϴ ARIZAK-MD ႮՏᎬᎡՏ! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- *ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ ᎻႮΝͲᎬᎡ-ХᎷᎠ   🚩* 
+ *ͲᎻᎪΝᏦ ᎽϴᎡ ҒϴᎡ ႮՏᏆΝᏀ ARIZAK-ᎷᎠ   🚩* 
 
 > ᎫϴᏆΝ ᎷᎽ ᏟᎻᎪΝΝᎬᏞ :- ⤵️
  
-https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y
+https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l
 
 ᎠϴΝͲ ҒϴᏀᎬͲ Ͳϴ ҒϴᎡᏦ ᎡᎬᏢϴ⬇️
+https://github.com/arizak-md/arizak
 
-https://github.com/Obedweb/Hunter-Xmd1
 
-> *© Powered BY ϴᏴᎬᎠ ͲᎬᏟᎻ 🖤*`; 
+> *© Powered BY ARIZAK ͲᎬᏟᎻ 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ϴᏴᎬᎠ ͲᎬᏟᎻ",
+title: "ARIZAK ͲᎬᏟᎻ",
 thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
+sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -112,9 +112,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᎻႮΝͲᎬᎡ ХᎷᎠ",
+title: "ARIZAK-ᎷᎠ",
 thumbnailUrl: "https://files.catbox.moe/c82aaa.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y",
+sourceUrl: "https://whatsapp.com/channel/0029Vb4q0dBF1YlYwsYt9N0l",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
